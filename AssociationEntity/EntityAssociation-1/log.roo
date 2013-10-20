@@ -1,0 +1,23 @@
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2013-04-29 03:54:41
+addon create advanced --topLevelPackage com.repik.roo.entity.association --description ""
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2013-04-29 03:54:42
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2013-04-29 03:54:48
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2013-04-30 04:46:53
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2013-04-30 06:35:39
+osgi obr url add --url "file:/Users/Dan Repik/.m2/repository/repository.xml"
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2013-08-10 08:23:50
+addon list
+osgi uninstall --bundleSymbolicName com.repik.roo.entity.association
+osgi start --url file:/C:\workspaces\spring-2013\EntityAssociation-1\target\com.repik.roo.entity.association-0.1.0.BUILD-SNAPSHOT.jar
+osgi ps
+exit
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2013-08-12 21:53:03
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2013-08-12 21:55:55
+// [failed] focus --class ~.domain.AppUser
+// [failed] association new --between AppUser --and Organization
+exit
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2013-08-12 22:00:20
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2013-08-17 05:42:54
+metadata cache --maximumCapacity 300
+exit
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2013-08-30 05:46:51
