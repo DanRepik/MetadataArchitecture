@@ -12,6 +12,11 @@ public class IndentifableAssetBuilder<BUILDER extends AbstractIdentifiableAnnota
 		this.builder = builder;
 	}
 
+	/**
+	 * This method should be called by subtypes to add and annotation
+	 * 
+	 * @param annotationBuilder
+	 */
 	protected void addAnnotation(AnnotationBuilder annotationBuilder) {
 		AnnotationMetadata metadata = annotationBuilder.build();
 		AnnotationMetadataBuilder result = builder.getDeclaredTypeAnnotation(metadata.getAnnotationType());

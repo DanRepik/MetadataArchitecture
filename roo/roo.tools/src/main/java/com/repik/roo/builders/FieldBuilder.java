@@ -5,6 +5,12 @@ import org.springframework.roo.classpath.details.FieldMetadataBuilder;
 import org.springframework.roo.model.JavaSymbolName;
 import org.springframework.roo.model.JavaType;
 
+/**
+ * This class defines a facade to assist in building fields for Roo.
+ * 
+ * @author Dan Repik
+ *
+ */
 public class FieldBuilder extends IndentifableAssetBuilder<FieldMetadataBuilder> {
 
 	public FieldBuilder( String metadataId ) {
